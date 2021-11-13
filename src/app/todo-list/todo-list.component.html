@@ -1,0 +1,20 @@
+<div class="table">
+  <h1>Todo ( Table )</h1>
+
+  <table border="10px">
+
+    <tr>
+      <th>Task</th>
+      <th>Start Time</th>
+      <th>End Time</th>
+    </tr>
+
+    <tr *ngFor="let items of task">
+      <th>{{items.task}}</th>
+      <th>{{items.start_time}} hrs</th>
+      <th>{{items.end_time}} hrs</th>
+    </tr>
+
+  </table>
+
+</div>
